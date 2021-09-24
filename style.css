@@ -35,9 +35,15 @@
     padding-bottom: 2%;
 }
 
+.item {
+    color: black;
+}
+
+div {
+    background-color:white;
+}
+
 .button {
-    margin:0 auto;
-    display:block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     background-color: yellow;
@@ -46,6 +52,21 @@
     padding-top: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    margin:0 auto;
+    display:table;
+}
+
+.smallbutton {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin:0 auto;
+    display:table;
 }
 
 .bodytext {
